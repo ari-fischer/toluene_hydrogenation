@@ -1,0 +1,26 @@
+Electronic structure
+  PREC    = NORMAL
+  LREAL   = Auto
+  ENCUT   = 396
+  ISYM    = 0
+  ISPIN   = 1
+Electronic minimization
+  ALGO   = FAST
+  EDIFF   = 1e-6
+  NELM    = 80
+  MAXMIX  = 80
+  BMIX    = 4
+  ISMEAR  = 2
+  SIGMA   = 0.2
+Density functional
+  GGA      = OR
+  LUSE_VDW = .TRUE.
+  AGGAC    = 0.0000
+Ionic relaxation
+  ISIF    = 0
+  EDIFFG  = -0.1
+  NSW     = 200
+  IBRION  = 2
+  POTIM   = 0.1
+Parallelization
+Other parameters
