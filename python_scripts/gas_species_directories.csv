@@ -1,0 +1,4 @@
+,species,n_H,path_g,path_f,E_ev,mass
+0,H2,0,**/local/path**,**/local/path**,-7.0256688,2
+1,Toluene,0,**/local/path**,**/local/path**,-92.846885,92
+2,4MCHE,0,**/local/path**,**/local/path**,-107.90847,96

@@ -1,0 +1,11 @@
+,species,n_H,motif,path_g,path_f,E_ev,mass
+0,methylenebenzene,-1,bridge,**/local/path**,**/local/path**,-234.47174,91
+1,Toluene,0,four-fold bridge,**/local/path**,**/local/path**,-238.56904,92
+2,TH1,1,AA,**/local/path**,**/local/path**,-242.19368,93
+3,1M14CHD,2,hollow,**/local/path**,**/local/path**,-246.35577,94
+4,1M13CHD,2,bridgeA,**/local/path**,**/local/path**,-245.86872,94
+5,TH3,3,AA,**/local/path**,**/local/path**,-249.74205,95
+6,1-Methylcyclohexene,4,two-fold bridge,**/local/path**,**/local/path**,-253.45018,96
+7,4-Methylcyclohexene,4,two-fold bridge,**/local/path**,**/local/path**,-253.48939,96
+8,1-Methylcyclohexyl,5,atop,**/local/path**,**/local/path**,-257.26864,97
+9,4-Methylcyclohexyl,5,atop,**/local/path**,**/local/path**,-257.2742487,97
