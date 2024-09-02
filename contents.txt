@@ -1,15 +1,7 @@
 ———Contents of repository———
 
-***experimental kinetics data***
-the “/kinetics_measurements“ director contains excel spreadsheets with time-on-stream data for turnover rates measured in three temperature ranges, analyzed using GC-FID, and the calculation of turnover rates from response areas.
-files include:
-- “kinetic data 60 to 120 C.xlsx”
-- “kinetic data 140 to 160 C.xlsx”
-- “kinetic data 220 to 260 C.xlsx”
-
-
 ***DFT_outputs***
-The "/DFT_outputs" directory contains output files from geometry optimization and frequency calculations run with VASP. These are contained within "geom" and "freq" subdirectories within directories named after each molecules. 
+The "/DFT_outputs" directory contains output files from geometry optimization and frequency calculations run with VASP. These are contained within "geom" and "freq" subdirectories within directories named after each molecules. Geometries also listed in xyz format.
 
 ***python_scripts***
 contains a jupyter notebook used to calculate the methylenebenzene area projection used to estimate site requirements:
@@ -17,15 +9,16 @@ contains a jupyter notebook used to calculate the methylenebenzene area projecti
 
 contains a “molecule_library” folder with adsorbate structure file
 
-contains jupyter notebook used to calculate thermodynamic state functions for gas-phase species and adsorbates from output files in "/DFT_outputs". Local paths need to updated in "gas_species_directories.csv" and "surf_species_directories.csv" files.
-
-jupyter notebooks:
+contains the thermochemical calculations used to calculate thermodynamic state functions for gas-phase species and adsorbates
 - “Thermo_calc_gas.ipynb”
 - “Thermo_calc_surf.ipynb”
 
 ***MATLAB_model***
-contains numerical model used to describe the methylcyclohexene hydrogenation rate parameter and to regress parameters values.
+contains numerical model used to describe the methylcyclohexene hydrogenation rate parameter and to regress parameters values
 
-"fit_model.m" function used to run the regression analysis. Reads the dataset in "data_psi_HT_full.csv"
-
-The normalized residuals for psi predictions are calculated in "model_1.m"
+***experimental kinetics data***
+the “/kinetics_measurements“ director contains excel spreadsheets with time-on-stream data for turnover rates measured in three temperature ranges, analyzed using GC-FID, and the calculation of turnover rates from response areas.
+files include:
+- “kinetic data 60 to 120 C.xlsx”
+- “kinetic data 140 to 160 C.xlsx”
+- “kinetic data 220 to 260 C.xlsx”
